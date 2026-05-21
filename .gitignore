@@ -17,3 +17,7 @@ __pycache__/
 
 # Deep-learning weights (download via 15_image_colorization/get_models.ps1)
 *.caffemodel
+
+# Datasets (torchvision downloads to ./data when download=True)
+data/
+*.tar.gz
